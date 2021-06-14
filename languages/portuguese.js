@@ -24,6 +24,10 @@ var details = {
     }
 }
 
+var skills = {
+    "title" : "Habilidades"
+}
+
 var footer = {
     "text1" : "A procura de oportunidades.",
     "text2" : "Contato:",
@@ -63,6 +67,9 @@ function setPortuguese(){
 
     locationTitle.innerHTML = details.location.title;
     location.innerHTML = details.location.text;
+
+    var skillsTitle = document.getElementById('skillsTitle');
+    skillsTitle.innerHTML = skills.title;
 
     var footerTexts = document.getElementsByClassName('footerText');
 
