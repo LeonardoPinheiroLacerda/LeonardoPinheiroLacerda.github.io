@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+*{
+    font-family: 'Open Sans',sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2rem;
+}
+
+
+
+#header{
+    text-align: center;
+    margin-top: 30px;  
+    display: inline;
+}
+#header h1, #header h4{
+    margin: 30px;
+}
+
+#footer{
+    background-color: gray;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+#footer div{
+    flex-direction: row;
+}
+
+#mainSection{
+    width:70%;
+    margin: 0 auto;
+    margin-top: 45px;
+    display: flex;
+} 
+
+#mainSection #aboutme{
+    width:30%;
+    text-align: left;
+}
+
+#mainSection img{
+    border-radius: 100%;
+    width: 30%;
+    margin: 4.89%;
+}
+
+#mainSection #details{
+    width:30%;
+    text-align: left;
+}
