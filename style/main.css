@@ -55,10 +55,23 @@ h3{
 #mainSection img{
     border-radius: 100%;
     width: 30%;
+    height: auto;
     margin: 4.89%;
 }
 
 #mainSection #details{
     width:30%;
     text-align: left;
+}
+
+#mainSection #details h3{
+    margin-bottom: 40px;
+}
+
+#mainSection #details p{
+    margin-bottom: 20px;
+}
+
+.bold{
+    font-weight: bold;
 }
