@@ -5,8 +5,11 @@
         <title>Leonardo Pinheiro Lacerda</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style/main.css">
-
-        
+        <link rel="stylesheet" href="style/responsive.css">
+        <script src="languages/portuguese.js"></script>
+        <script src="languages/english.js"></script>
+        <script src="languages/setter.js"></script>
+        <script src="languages/listener.js"></script>
     </head>
 
     <body>
@@ -21,6 +24,15 @@
                     <img src="assets/linkedin.png">
                 </a>
             </div>
+            <div id="language">
+                <label id="langText"></label>
+                <select id="languageSelect" onchange="changeLanguage()">
+                    <option value="en">English</option>
+                    <option value="pt">Português</option>
+                </select>
+            </div>
+            <br/>
+            <hr/>
         </header>
 
         <section id="mainSection">
@@ -65,11 +77,11 @@
         </section>
 
         <footer id="footer">
-            <p class="footerText" id="footerBegining">A procura de oportunidades. </p>
+            <p class="footerText" id="footerBegining"></p>
             <br/>
-            <p class="footerText" style="font-weight: bold;">Contato:</p>
-            <p class="footerText">E-mail: leon.lacerda2015@gmail.com</p>
-            <p class="footerText">Telefone: (11) 9 5324-8804</p>
+            <p class="footerText" style="font-weight: bold;"></p>
+            <p class="footerText"></p>
+            <p class="footerText"></p>
             <br/>
             <div>
                 <a href="https://www.github.com/LeonardoPinheiroLacerda" target="_blank">
@@ -80,6 +92,5 @@
                 </a>
             </div>
         </footer>
-        <script src="languages/portuguese.js"></script>
     </body>
 </html>
