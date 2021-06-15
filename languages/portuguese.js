@@ -32,6 +32,6 @@ var portuguese = {
         "text4" : "Telefone: (11) 9 5324-8804"
     },
     "selectText" : {
-        "text1" : "Idioma de perfil:"
+        "text1" : "Idioma de perfil:  "
     }
 }
