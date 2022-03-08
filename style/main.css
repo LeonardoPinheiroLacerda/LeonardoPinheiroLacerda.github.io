@@ -1,110 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
-
-*{
-    font-family: 'Open Sans',sans-serif;
-    margin: 0px;
-    padding: 0px;
-}
-
-h1, h2, h3, h4, h5, h6{
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-h1{
-    font-size: 3rem;
-}
-h3{
-    font-size: 2rem;
-}
-
-#header{
-    text-align: center;
-    margin-top: 30px;  
-    display: inline;
-}
-#header h1, #header h4{
-    margin: 30px;
-}
-
-#footer{
-    background-color: gray;
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 10px;
-}
-
-#footer div{
-    flex-direction: row;
-}
-
-section{
-    width:70%;
-    margin: 0 auto;
-    margin-top: 45px;
-    display: flex;
-} 
-
-#mainSection #aboutme{
-    width:30%;
-    text-align: left;
-}
-
-#mainSection #aboutme h3{
-    margin-bottom: 40px;
-}
-
-#mainSection img{
-    border-radius: 100%;
-    width: 30%;
-    height: fit-content;
-    margin: 4.89%;
-}
-
-#mainSection #details{
-    width:30%;
-    text-align: left;
-}
-
-#mainSection #details div a img{
-    width:32px;
-}
-
-#mainSection #details h3{
-    margin-bottom: 40px;
-}
-
-#mainSection #details p{
-    margin-bottom: 20px;
-}
-
-.bold{
-    font-weight: bold;
-}
-
-.invisible{
-    opacity: 0
-}
-
-#skills{
-    flex-direction: column;
-    text-align: center;
-    flex-wrap: wrap;
-    margin-bottom: 35px;
-    margin-top: 35px;
-}
-
-#skills img{
-    margin: 10px;
-    border: 1px solid transparent;
-}
-
-#skills img:hover{
-    border: 1px solid black; 
-    border-radius: 10px;
+@media(max-width: 980px){
+    :root{
+        --sl-width:62px;
+        --sl-height: 40px;
+    }
     
+    * {
+        font-size: 1.2rem !important;
+    }
+
+    footer h3{
+        font-size: 1.7rem !important;
+    }
+
+    svg{
+        width: 1.5rem;
+        height: 1.5rem
+    }
 }
 
-a{
-    text-decoration: none;
+svg{
+    width: 1.3rem;
+    height: 1.3rem
+}
+
+.footer-col{
+    width: 45% !important;
+}
+
+.footer-vertical-rule{
+    width: 3px !important;
 }
