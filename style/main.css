@@ -1,32 +1,51 @@
-@media(max-width: 980px){
-    :root{
-        --sl-width:62px;
+@media(max-width: 980px) {
+    :root {
+        --sl-width: 62px;
         --sl-height: 40px;
     }
-    
+
     * {
         font-size: 1.2rem !important;
     }
 
-    footer h3{
+    h1 {
+        font-size: 2rem !important;
+    }
+
+    footer h3 {
         font-size: 1.7rem !important;
     }
 
-    svg{
+    svg {
         width: 1.5rem;
         height: 1.5rem
     }
+
+    .profile-data {
+        flex-direction: column-reverse;
+    }
+
+    .profile-data .col-6 {
+        width: 100%;
+    }
 }
 
-svg{
+svg {
     width: 1.3rem;
     height: 1.3rem
 }
 
-.footer-col{
+.footer-col {
     width: 45% !important;
 }
 
-.footer-vertical-rule{
+.footer-vertical-rule {
     width: 3px !important;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 75px !important;
+    height: 75px !important;
+    border: 2px white solid;
 }
