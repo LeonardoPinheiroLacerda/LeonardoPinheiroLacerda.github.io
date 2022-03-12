@@ -49,3 +49,8 @@ svg {
     height: 75px !important;
     border: 2px white solid;
 }
+
+.skill-icon{
+    width:70px;
+    height: 70px;
+}

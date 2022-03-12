@@ -21,5 +21,8 @@ const portuguese = {
     'profile-age-value' : '23 Anos',
 
     'profile-location-key' : 'Localização',
-    'profile-location-value' : 'São Paulo, SP - Brasil'
+    'profile-location-value' : 'São Paulo, SP - Brasil',
+
+    'skills' : 'Habilidades',
+
 }

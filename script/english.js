@@ -21,6 +21,8 @@ const english = {
     'profile-age-value' : '23 Years old',
 
     'profile-location-key' : 'Location',
-    'profile-location-value' : 'São Paulo, SP - Brazil'
+    'profile-location-value' : 'São Paulo, SP - Brazil',
+
+    'skills' : 'Skills',
 
 };
