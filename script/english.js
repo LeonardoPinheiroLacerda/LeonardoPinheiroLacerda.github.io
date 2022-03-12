@@ -25,4 +25,9 @@ const english = {
 
     'skills' : 'Skills',
 
+    'portfolio' : "Portfolio",
+
+    'bongo-cat-desc' : 'A simple browser game inspired by the meme that has the same name. Developed with the same architecture as the applications that I developed for SKY as a trainee.',
+    'bongo-cat-source-code' : 'Source code',
+    'bongo-cat-game' : 'Website'
 };

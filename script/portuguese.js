@@ -25,4 +25,10 @@ const portuguese = {
 
     'skills' : 'Habilidades',
 
+    'portfolio' : "Portfólio",
+
+    'bongo-cat-desc' : 'Um jogo de navegador simples inspirado pelo meme de mesmo nome. Desenvolvido com a mesma arquitetura dos aplicativos desenvolvidos para a SKY como estagiário.',
+    'bongo-cat-source-code' : 'Código Fonte',
+    'bongo-cat-game' : 'Página web'
+
 }
