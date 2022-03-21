@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="style/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body class="bg-dark">
 
     <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #e3f2fd;">
-
 
         <div class="container-fluid px-5">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -54,10 +54,10 @@
 
     <main class="container bg-light p-0">
 
-        <header class="bg-secondary p-2 d-flex align-items-center justify-content-around m-0 mb-3" id="header">
+        <header class="bg-secondary p-2 d-flex align-items-center justify-content-around m-0 mb-3" id="header" data-aos="fade-up">
             <img src="assets/profile.jpg" class="profile-pic col-2">
-            <div class="d-flex flex-column col-10 ">
-                <h1 class="text-center text-light" id="header-profile">Profile</h1>
+            <div class="d-flex flex-column col-10">
+                <h1 class="text-center text-light" id="header-profile"></h1>
                 <h5 class="text-center text-light" id="header-desc"></h5>
             </div>
         </header>
@@ -66,13 +66,13 @@
 
             <div class="row profile-data">
 
-                <div class="col-6">
+                <div class="col-6"  data-aos="fade-up">
 
                     <h4 class="m-2 text-center" id="profile-about-key"></h4>
                     <p class="m-3" id="profile-about-value"></p>
 
                 </div>
-                <div class="col-6 p-2">
+                <div class="col-6 p-2" data-aos="fade-up">
 
                     <div class="d-flex flex-row align-items-center m-2">
                         <h5 class="m-2" id="profile-name-key"></h5>
@@ -97,11 +97,11 @@
 
         <section class="mt-5 w-100">
 
-            <h3 class="text-center bg-secondary py-2 text-light" id="portfolio"></h3>
+            <h3 class="text-center bg-secondary py-2 text-light" id="portfolio" data-aos="fade-up"></h3>
 
 
             <div class="d-flex align-items-start justify-content-center flex-wrap portfolio">
-                <div class="card m-2" style="width: 18rem;">
+                <div class="card m-2" style="width: 18rem;" data-aos="fade-up">
                     <img class="card-img-TOP" src="assets/bongocat.PNG">
                     <div class="card-body">
                         <h5 class="card-title">Bongo Cat</h5>
@@ -115,7 +115,7 @@
                     </div>
                 </div>
 
-                <div class="card m-2" style="width: 18rem;">
+                <div class="card m-2" style="width: 18rem;" data-aos="fade-up">
                     <img class="card-img-TOP" src="assets/chat.PNG">
                     <div class="card-body">
                         <h5 class="card-title">Talk To Strangers</h5>
@@ -129,7 +129,7 @@
 
                 
 
-                <div class="card m-2" style="width: 18rem;">
+                <div class="card m-2" style="width: 18rem;" data-aos="fade-up">
                     <img class="card-img-TOP" src="assets/gameOfLife.PNG">
                     <div class="card-body">
                         <h5 class="card-title">Game Of Life</h5>
@@ -141,7 +141,7 @@
                     </div>
                 </div>
 
-                <div class="card m-2" style="width: 18rem;">
+                <div class="card m-2" style="width: 18rem;" data-aos="fade-up">
                     <img class="card-img-TOP" src="assets/i18nEn.PNG">
                     <div class="card-body">
                         <h5 class="card-title">I18N Switch</h5>
@@ -159,73 +159,88 @@
 
         <section class="mt-5 w-100">
 
-            <h3 class="text-center bg-secondary py-2 text-light" id="skills"></h3>
+            <h3 class="text-center bg-secondary py-2 text-light" id="skills" data-aos="fade-up"></h3>
 
             <div class="d-flex align-items-center justify-content-center flex-wrap px-4 py-2">
 
                 <img class="m-1 skill-icon"
                     src='https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg'
                     data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-aos="fade-up"
                     title='Java' />
                 <img class="m-1 skill-icon"
                     src='https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg'
                     data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-aos="fade-up"
                     title='Spring Boot' />
                 <img class="m-1 skill-icon"
                     src='https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg'
                     data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-aos="fade-up"
                     title='PHP' />
                 <img class="m-1 skill-icon"
                     src='https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg'
                     data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-aos="fade-up"
                     title='Laravel' />
                 <img class="m-1 skill-icon"
                     src='https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg'
                     data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-aos="fade-up"
                     title='PostGreSQL' />
                 <img class="m-1 skill-icon"
                     src='https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg'
                     data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-aos="fade-up"
                     title="HTML5" />
                 <img class="m-1 skill-icon"
                     src='https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg'
                     data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-aos="fade-up"
                     title='CSS3' />
                 <img class="m-1 skill-icon"
                     src='https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg'
                     data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-aos="fade-up"
                     title='JavaScript' />
                 <img class="m-1 skill-icon"
                     src='https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg'
                     data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-aos="fade-up"
                     title='Bootstrap' />
                 <img class="m-1 skill-icon"
                     src='https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original-wordmark.svg'
                     data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-aos="fade-up"
                     title='Visual Code' />
                 <img class="m-1 skill-icon"
                     src='https://raw.githubusercontent.com/devicons/devicon/master/icons/heroku/heroku-original-wordmark.svg'
                     data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-aos="fade-up"
                     title='Heroku' />
                 <img class="m-1 skill-icon"
                     src='https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original-wordmark.svg'
                     data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-aos="fade-up"
                     title="Git/Github" />
                 <img class="m-1 skill-icon"
                     src='https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg'
                     data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-aos="fade-up"
                     title="Docker" />
                 <img class="m-1 skill-icon"
                     src='https://raw.githubusercontent.com/devicons/devicon/master/icons/godot/godot-original-wordmark.svg'
                     data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-aos="fade-up"
                     title="Godot" />
                 <img class="m-1 skill-icon"
                     src='https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg'
                     data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-aos="fade-up"
                     title='React.js' />
                 <img class="m-1 skill-icon"
                     src='https://raw.githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-plain-wordmark.svg'
-                    data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-bs-toggle="tooltip" data-bs-placement="top" data-aos="fade-up"
                     title='Ubuntu 20.04' />
 
             </div>
@@ -238,9 +253,9 @@
 
         <div class="text-light">
 
-            <div class="row justify-content-center w-100" id="footer-content">
+            <div class="row justify-content-center w-100" id="footer-content" >
 
-                <div class="footer-col">
+                <div class="footer-col" data-aos="fade-up">
                     <h3 id="footer-contact"></h3>
 
                     <p class="ms-2">
@@ -263,11 +278,11 @@
 
                 </div>
 
-                <div class="d-flex justify-content-center p-0" id="footer-vertical-rule">
+                <div class="d-flex justify-content-center p-0" id="footer-vertical-rule"  data-aos="fade-up">
                     <div class="vr"></div>
                 </div>
 
-                <div class="footer-col">
+                <div class="footer-col"  data-aos="fade-up">
                     <h3 id="footer-socialmedia"></h3>
 
                     <p class="ms-2">
@@ -319,6 +334,10 @@
         var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl)
         })
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 </body>
 
