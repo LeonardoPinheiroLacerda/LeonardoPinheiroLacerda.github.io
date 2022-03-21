@@ -31,15 +31,15 @@ const portuguese = {
     'bongo-cat-source-code' : 'Código Fonte',
     'bongo-cat-game' : 'Página web',
 
-    'chat-desc' : '',
+    'chat-desc' : 'Um chat em grupo desenvolvido em Spring boot para estudo da classe SseEmitter que tem como objetivo enviar mensagens do servidor para o cliente por meio de event streams.',
     'chat-source-code' : 'Código Fonte',
     'chat-site' : 'Página web',
 
-    'game-of-life-desc' : '',
+    'game-of-life-desc' : 'O Jogo da Vida, é um autômato celular idealizado pelo matemático britânico John Horton Conway em 1970. É um jogo sem players, o que significa que sua evolução é determinada pelo seu estado inicial, não necessitando de mais nenhuma entrada. A pessoa interage com o game of life criando uma configuração inicial e observando como ela evolui.',
     'game-of-life-source-code' : 'Código Fonte',
     'game-of-life-game' : 'Página web',
 
-    'i18n-desc' : '',
+    'i18n-desc' : 'I18NSwitch  é um componente desenvolvido com JavaScript puro para facilitar a internacionalização com dois idiomas em páginas web estáticas.<br>Esse componemte está foi utilizado desenvolver essa página! Você pode encontra-lo na barra de navegação.',
     'i18n-source-code' : 'Código Fonte'
 
 }

@@ -31,14 +31,14 @@ const english = {
     'bongo-cat-source-code' : 'Source code',
     'bongo-cat-game' : 'Website',
 
-    'chat-desc' : '',
+    'chat-desc' : 'A chat group developed on Spring boot to study the class SseEmitter tht has the objective to send messages fron the server to the client via event streams.',
     'chat-source-code' : 'Source code',
     'chat-site' : 'Website',
 
-    'game-of-life-desc' : '',
+    'game-of-life-desc' : 'The Game of Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970. It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves.',
     'game-of-life-source-code' : 'Source code',
     'game-of-life-game' : 'Website',
 
-    'i18n-desc' : '',
+    'i18n-desc' : 'I18NSwitch is a vanilla JavaScript based component to make internationalization using two languages easier on static web pages.<br>This component has been used to develop this page! You can find it on the navbar.',
     'i18n-source-code' : 'Source code'
 };
