@@ -1,24 +1,28 @@
 @media(max-width: 980px) {
     :root {
-        --sl-width: 62px;
-        --sl-height: 40px;
+        --sl-width: 72px;
+        --sl-height: 50px;
     }
 
     * {
-        font-size: 1.2rem !important;
+        font-size: 1.5rem !important;
     }
 
     h1 {
         font-size: 2rem !important;
     }
 
-    footer h3 {
+    h3{
+        font-size:  1.8rem !important;
+    }
+    
+    h4 { 
         font-size: 1.7rem !important;
     }
 
-    svg {
-        width: 1.5rem;
-        height: 1.5rem
+    .skill-icon{
+        width:140px !important;
+        height: 140px !important;
     }
 
     .profile-data {
@@ -27,6 +31,38 @@
 
     .profile-data .col-6 {
         width: 100%;
+    }
+
+    .container{
+        max-width:880px !important
+    }
+
+    .portfolio > div{
+        width: 750px !important;
+    }
+
+    .portfolio > div .card-title{
+        font-size: 2rem !important;
+    }
+
+    #footer-vertical-rule {
+        display: none !important;
+    }
+
+    #footer-content{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    #footer-content > .footer-col {
+        width: 90% !important;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    #footer-content > .footer-col > h3{
+        font-size: 2rem !important;
     }
 }
 
