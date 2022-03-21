@@ -99,9 +99,12 @@ svg {
     -moz-filter: brightness(130%);
 }
 
-
 .portfolio > div{
     border-radius: 5px;
     -webkit-box-shadow: 3px 3px 9px 0px #000000; 
     box-shadow: 3px 3px 9px 0px #000000;
+}
+
+.portfolio img{
+    height: min-content;
 }
