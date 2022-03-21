@@ -53,8 +53,19 @@ svg {
 .skill-icon{
     width:70px;
     height: 70px;
+    transition: .2s;
 }
 
-.port-pic{
-    width:400px
+.skill-icon:hover{
+    border-radius: 5px;
+    filter: brightness(130%);
+    -webkit-filter: brightness(130%);
+    -moz-filter: brightness(130%);
+}
+
+
+.portfolio > div{
+    border-radius: 5px;
+    -webkit-box-shadow: 3px 3px 9px 0px #000000; 
+    box-shadow: 3px 3px 9px 0px #000000;
 }

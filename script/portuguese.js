@@ -29,6 +29,17 @@ const portuguese = {
 
     'bongo-cat-desc' : 'Um jogo de navegador simples inspirado pelo meme de mesmo nome. Desenvolvido com a mesma arquitetura dos aplicativos desenvolvidos para a SKY como estagiário.',
     'bongo-cat-source-code' : 'Código Fonte',
-    'bongo-cat-game' : 'Página web'
+    'bongo-cat-game' : 'Página web',
+
+    'chat-desc' : '',
+    'chat-source-code' : 'Código Fonte',
+    'chat-site' : 'Página web',
+
+    'game-of-life-desc' : '',
+    'game-of-life-source-code' : 'Código Fonte',
+    'game-of-life-game' : 'Página web',
+
+    'i18n-desc' : '',
+    'i18n-source-code' : 'Código Fonte'
 
 }

@@ -29,5 +29,16 @@ const english = {
 
     'bongo-cat-desc' : 'A simple browser game inspired by the meme that has the same name. Developed with the same architecture as the applications that I developed for SKY as a trainee.',
     'bongo-cat-source-code' : 'Source code',
-    'bongo-cat-game' : 'Website'
+    'bongo-cat-game' : 'Website',
+
+    'chat-desc' : '',
+    'chat-source-code' : 'Source code',
+    'chat-site' : 'Website',
+
+    'game-of-life-desc' : '',
+    'game-of-life-source-code' : 'Source code',
+    'game-of-life-game' : 'Website',
+
+    'i18n-desc' : '',
+    'i18n-source-code' : 'Source code'
 };
