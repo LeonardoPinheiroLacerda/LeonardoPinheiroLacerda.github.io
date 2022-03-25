@@ -40,6 +40,9 @@ const portuguese = {
     'game-of-life-game' : 'Página web',
 
     'i18n-desc' : 'I18NSwitch  é um componente desenvolvido com JavaScript puro para facilitar a internacionalização com dois idiomas em páginas web estáticas.<br>Esse componemte está foi utilizado desenvolver essa página! Você pode encontra-lo na barra de navegação.',
-    'i18n-source-code' : 'Código Fonte'
+    'i18n-source-code' : 'Código Fonte',
+
+    'task-manager-desc' : '(Em desenvolvimento)<br> Projeto full stack utilizando Spring boot, Angular e PostgreSQL como base de dados. Se trata de um task manager para gerenciar tarefas em equipe. <br>Esse projeto tem como objetivo demonstrar minhas habilidades utilizando as tecnologias citadas.',
+    'task-manager-source-code' : 'Código Fonte'
 
 }
