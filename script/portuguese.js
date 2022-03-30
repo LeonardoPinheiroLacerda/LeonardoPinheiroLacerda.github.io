@@ -43,6 +43,9 @@ const portuguese = {
     'i18n-source-code' : 'Código Fonte',
 
     'task-manager-desc' : '(Em desenvolvimento)<br> Projeto full stack utilizando Spring boot, Angular e PostgreSQL como base de dados. Se trata de um task manager para gerenciar tarefas em equipe. <br>Esse projeto tem como objetivo demonstrar minhas habilidades utilizando as tecnologias citadas.',
-    'task-manager-source-code' : 'Código Fonte'
+    'task-manager-source-code' : 'Código Fonte',
+
+    'jwt-desc' : 'Exemplo de autenticação e autorização utilizando JWT usando o Framework Spring Boot Security, para utilizar como referência.',
+    'jwt-source-code' : 'Código Fonte'
 
 }

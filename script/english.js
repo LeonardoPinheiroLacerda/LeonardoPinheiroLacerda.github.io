@@ -43,5 +43,8 @@ const english = {
     'i18n-source-code' : 'Source code',
 
     'task-manager-desc' : '(Under development)<br> A full stack project using Spring boot, Angular and PostgreSQL as a database, this is a team task manager. <br>This project aims to demonstrate my skills using the mentioned technologies.',
-    'task-manager-source-code' : 'Source code'
+    'task-manager-source-code' : 'Source code',
+
+    'jwt-desc' : 'Example of authentication and authorization using JWT on Spring Boot Security Framework, to use as a reference.',
+    'jwt-source-code' : 'Source code'
 };
