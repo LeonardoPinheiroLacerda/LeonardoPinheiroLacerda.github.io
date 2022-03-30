@@ -108,3 +108,8 @@ svg {
 .portfolio img{
     height: min-content;
 }
+
+.download-svg{
+    height:30px !important;
+    width:30px !important;
+}

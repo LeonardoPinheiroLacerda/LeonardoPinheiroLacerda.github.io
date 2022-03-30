@@ -5,6 +5,8 @@ const english = {
     'nav-portfolio': 'Portfolio',
     'nav-skills' : 'Skills',
 
+    'download-resume' : "Download Resume",
+
     'footer-contact' : 'Contact',
     'footer-socialmedia' : "Social media",
 

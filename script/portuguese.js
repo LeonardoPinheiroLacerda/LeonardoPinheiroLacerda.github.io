@@ -5,6 +5,8 @@ const portuguese = {
     'nav-portfolio': 'Portfólio',
     'nav-skills' : 'Skills',
 
+    'download-resume' : "Baixar Currículo",
+
     'footer-contact' : 'Contato',
     'footer-socialmedia' : "Redes sociais",
 
