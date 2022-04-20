@@ -30,24 +30,14 @@ const portuguese = {
     'portfolio' : "Portfólio",
 
     'bongo-cat-desc' : 'Um jogo de navegador simples inspirado pelo meme de mesmo nome. Desenvolvido com a mesma arquitetura dos aplicativos desenvolvidos para a SKY como estagiário.',
-    'bongo-cat-source-code' : 'Código Fonte',
-    'bongo-cat-game' : 'Página web',
-
     'chat-desc' : 'Um chat em grupo desenvolvido em Spring boot para estudo da classe SseEmitter que tem como objetivo enviar mensagens do servidor para o cliente por meio de event streams.',
-    'chat-source-code' : 'Código Fonte',
-    'chat-site' : 'Página web',
-
     'game-of-life-desc' : 'O Jogo da Vida, é um autômato celular idealizado pelo matemático britânico John Horton Conway em 1970. É um jogo sem players, o que significa que sua evolução é determinada pelo seu estado inicial, não necessitando de mais nenhuma entrada. A pessoa interage com o game of life criando uma configuração inicial e observando como ela evolui.',
-    'game-of-life-source-code' : 'Código Fonte',
-    'game-of-life-game' : 'Página web',
-
     'i18n-desc' : 'I18NSwitch  é um componente desenvolvido com JavaScript puro para facilitar a internacionalização com dois idiomas em páginas web estáticas.<br>Esse componemte está foi utilizado desenvolver essa página! Você pode encontra-lo na barra de navegação.',
-    'i18n-source-code' : 'Código Fonte',
-
     'task-manager-desc' : '(Em desenvolvimento)<br> Projeto full stack utilizando Spring boot, Angular e PostgreSQL como base de dados. Se trata de um task manager para gerenciar tarefas em equipe. <br>Esse projeto tem como objetivo demonstrar minhas habilidades utilizando as tecnologias citadas.',
-    'task-manager-source-code' : 'Código Fonte',
-
     'jwt-desc' : 'Exemplo de autenticação e autorização utilizando JWT usando o Framework Spring Boot Security, para utilizar como referência.',
-    'jwt-source-code' : 'Código Fonte'
+    
+    
+    'source-code' : 'Código Fonte',
+    'website' : 'Página web'
 
 }

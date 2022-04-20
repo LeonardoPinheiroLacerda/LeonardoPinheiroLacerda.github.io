@@ -1,10 +1,15 @@
 const langSwitch = new I18NSwitch(
+    "switch-container",
     {
-        firstFlag : 'i18n/assets/united-states.png',
-        firstI18n : english,
-        secondFlag : 'i18n/assets/brazil.png',
-        secondI18n : portuguese
+        flag: CountryFlags.UNITED_STATES,
+        language: english
+    },
+    {
+        flag: CountryFlags.BRAZIL,
+        language: portuguese
     }
 );
 
-langSwitch.init();
+document.querySelector("#switch-description").addEventListener('click', (evt) => {
+    evt.preventDefault();
+})

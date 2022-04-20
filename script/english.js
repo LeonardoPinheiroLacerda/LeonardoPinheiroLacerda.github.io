@@ -30,23 +30,13 @@ const english = {
     'portfolio' : "Portfolio",
 
     'bongo-cat-desc' : 'A simple browser game inspired by the meme that has the same name. Developed with the same architecture as the applications that I developed for SKY as a trainee.',
-    'bongo-cat-source-code' : 'Source code',
-    'bongo-cat-game' : 'Website',
-
     'chat-desc' : 'A chat group developed on Spring boot to study the class SseEmitter tht has the objective to send messages fron the server to the client via event streams.',
-    'chat-source-code' : 'Source code',
-    'chat-site' : 'Website',
-
     'game-of-life-desc' : 'The Game of Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970. It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves.',
-    'game-of-life-source-code' : 'Source code',
-    'game-of-life-game' : 'Website',
-
     'i18n-desc' : 'I18NSwitch is a vanilla JavaScript based component to make internationalization using two languages easier on static web pages.<br>This component has been used to develop this page! You can find it on the navbar.',
-    'i18n-source-code' : 'Source code',
-
     'task-manager-desc' : '(Under development)<br> A full stack project using Spring boot, Angular and PostgreSQL as a database, this is a team task manager. <br>This project aims to demonstrate my skills using the mentioned technologies.',
-    'task-manager-source-code' : 'Source code',
-
     'jwt-desc' : 'Example of authentication and authorization using JWT on Spring Boot Security Framework, to use as a reference.',
-    'jwt-source-code' : 'Source code'
+    
+    
+    'source-code' : 'Source code',
+    'website' : 'Website'
 };
