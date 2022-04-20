@@ -35,6 +35,7 @@ const english = {
     'i18n-desc' : 'I18NSwitch is a vanilla JavaScript based component to make internationalization using two languages easier on static web pages.<br>This component has been used to develop this page! You can find it on the navbar.',
     'task-manager-desc' : '(Under development)<br> A full stack project using Spring boot, Angular and PostgreSQL as a database, this is a team task manager. <br>This project aims to demonstrate my skills using the mentioned technologies.',
     'jwt-desc' : 'Example of authentication and authorization using JWT on Spring Boot Security Framework, to use as a reference.',
+    'animepoll-desc' : 'A Spring MVC application that consumes an anime metadata <a href="https://jikan.moe/" target="_blank">API</a> to build a dinamic poll with the current airing animes. Every season the application will update itself with the latest animes. <br>The application uses thymeleaf to render the pages and the bootstrap framework to styling.',
     
     
     'source-code' : 'Source code',
