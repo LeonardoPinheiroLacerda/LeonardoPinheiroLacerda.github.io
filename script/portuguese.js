@@ -34,7 +34,7 @@ const portuguese = {
     'game-of-life-desc' : 'O Jogo da Vida, é um autômato celular idealizado pelo matemático britânico John Horton Conway em 1970. É um jogo sem players, o que significa que sua evolução é determinada pelo seu estado inicial, não necessitando de mais nenhuma entrada. A pessoa interage com o game of life criando uma configuração inicial e observando como ela evolui.',
     'i18n-desc' : 'I18NSwitch  é um componente desenvolvido com JavaScript puro para facilitar a internacionalização com dois idiomas em páginas web estáticas.<br>Esse componemte está foi utilizado desenvolver essa página! Você pode encontra-lo na barra de navegação.',
     'task-manager-desc' : '(Em desenvolvimento)<br> Projeto full stack utilizando Spring boot, Angular e PostgreSQL como base de dados. Se trata de um task manager para gerenciar tarefas em equipe. <br>Esse projeto tem como objetivo demonstrar minhas habilidades utilizando as tecnologias citadas.',
-    'jwt-desc' : 'Exemplo de autenticação e autorização utilizando JWT usando o Framework Spring Boot Security, para utilizar como referência.',
+    'jwt-desc' : 'Exemplo de autenticação e autorização utilizando Basic Auth, Form login e JWT usando o Framework Spring Boot Security, para utilizar como referência.',
     'animepoll-desc' : 'Um aplicativo Spring MVC que consome uma <a href="https://jikan.moe/" target="_blank">API</a> de metadados de animes para criar uma enquete dinâmica com os animes em lançamento. A cada temporada, o aplicativo se atualizará com os animes mais recentes. O aplicativo usa thymeleaf para renderizar as páginas e bootstrap para estilização.',
     
     'source-code' : 'Código Fonte',
