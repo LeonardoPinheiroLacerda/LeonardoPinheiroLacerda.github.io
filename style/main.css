@@ -71,6 +71,10 @@ svg {
     height: 1.3rem
 }
 
+.card-img-TOP{
+    border-radius: 5px 5px 0px 0px;
+}
+
 .footer-col {
     width: 45% !important;
 }
