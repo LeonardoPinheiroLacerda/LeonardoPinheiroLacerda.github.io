@@ -20,7 +20,7 @@ const portuguese = {
     'profile-name-value' : 'Leonardo Pinheiro Lacerda',
 
     'profile-age-key' : 'Idade: ',
-    'profile-age-value' : '23 Anos',
+    'profile-age-value' : `${age} Anos`,
 
     'profile-location-key' : 'Localização',
     'profile-location-value' : 'São Paulo, SP - Brasil',
