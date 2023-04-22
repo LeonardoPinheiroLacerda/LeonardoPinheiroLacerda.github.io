@@ -14,7 +14,10 @@ const english = {
     'header-desc' : 'Java Developer',
 
     'profile-about-key': 'About me',
-    'profile-about-value' : "I am currently a PHP developer and I do consultancy for SKY (A company whose main product is pay-TV channels.) in the development of interactive applications (Applications that are transmitted via satellite along with the customer's channel package, these applications can be of pay-per-view sales, marketing of some new packages, etc.).<br><br>I was an intern at SKY for 2 years where I developed myself on the front-end and developed several automation tools in Java, and currently I am a developer at Esferas Software which has SKY as the main client.<br>",
+    'profile-about-value' : 
+        "I am currently a Java developer using the Spring Boot framework for microservice development and Apache Camel to orchestrate those services. Working at wipro and providing consultancy for Santander in the consortium product team, in a squad responsible for customer activation and retention.<br><br>" +
+        "From 2021 to 2022 I was PHP developer using some different frameworks like laravel and symfony beside that I did consultancy for SKY (A company whose main product is pay-TV channels.) in the development of interactive applications (Applications that are transmitted via satellite along with the customer's channel package, these applications can be of pay-per-view sales, marketing of some new packages, etc.).<br><br>" + 
+        "I was an intern at SKY for 2 years where I developed myself on the front-end and developed several automation tools in Java, and currently I am a developer at Esferas Software which has SKY as the main client.<br>",
 
     'profile-name-key' : 'Name: ',
     'profile-name-value' : 'Leonardo Pinheiro Lacerda',
