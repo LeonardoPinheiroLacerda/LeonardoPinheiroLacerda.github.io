@@ -17,7 +17,7 @@ const portuguese = {
     'profile-about-value' : 
         'Atualmente sou desenvolvedor Java utilizando o framework Spring boot para desenvolvimento de microsserviços e Apache Camel para realizar a orquestração dos serviços. Atuando na wipro e prestando consultoria para o Santander na equipe do produto de consórcio, em uma squad responsável pela ativação e retenção do cliente.<br><br>' +
         'De 2021 à 2022 eu fui desenvolvedor PHP utilizando frameworks como por exemplo laravel e symfony, além disso fiz consultoria para a SKY (Empresa que tem como principal produto canais de televisão por assinatura.) no desenvolvimento de aplicações interativas (Aplicações que são transmitidas via satélite junto com o pacote de canais do cliente, essas aplicações podendo ser de venda de pay-per-view, marketing de novos pacotes e etc.).<br><br>' + 
-        'Fui estagiário na SKY por 2 anos onde me desenvolvi no front-end e desenvolvi varias ferramentas de automação em Java, e atualmente sou desenvolvedor na empresa Esferas Software tendo a SKY como principal cliente.<br>',
+        'Fui estagiário na SKY por 2 anos onde me desenvolvi no front-end e desenvolvi varias ferramentas de automação em Java.<br>',
     
     'profile-name-key' : 'Nome: ',
     'profile-name-value' : 'Leonardo Pinheiro Lacerda',
