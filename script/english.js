@@ -32,7 +32,7 @@ const english = {
 
     'portfolio' : "Portfolio",
 
-    'jwt-new-name' : 'Spring Boot Demo - Improved and using new feature',
+    'jwt-new-name' : 'Spring Boot Demo - Improved and using new features',
 
     'bongo-cat-desc' : 'A simple browser game inspired by the meme that has the same name. Developed with the same architecture as the applications that I developed for SKY as a trainee.',
     'chat-desc' : 'A chat group developed on Spring boot to study the class SseEmitter tht has the objective to send messages fron the server to the client via event streams.',
